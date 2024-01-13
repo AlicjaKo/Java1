@@ -9,8 +9,8 @@ class E02 {
         int y = scanner.nextInt();
 
         System.out.println(x+" + " +y+" = "+(x+y));
-        System.out.println(x+" * " +y+" = "+(x*y));
         System.out.println(x+" - " +y+" = "+(x-y));
+        System.out.println(x+" x " +y+" = "+(x*y));
         System.out.println(x+" / " +y+" = "+(x/y));
     }
 }

@@ -5,7 +5,7 @@ class E02 {
         System.out.println("Enter a number: ");
         int x = scanner.nextInt();
 
-        System.out.println("Enter another number: ");
+        System.out.println("Enter a number: ");
         int y = scanner.nextInt();
 
         System.out.println(x+" + " +y+" = "+(x+y));

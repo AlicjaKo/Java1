@@ -7,7 +7,7 @@ class E04 {
         System.out.println("Enter a month: ");
         int y = scanner.nextInt();
         if (x == 24 && y == 12) {
-            System.out.println("Merry Cristmas");
+            System.out.println("Merry Christmas");
         }
     }
 }

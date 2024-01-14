@@ -3,7 +3,7 @@ class E08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Enter a number (0 to quit):");
+            System.out.println("Give a number (0 to quit):");
             int x = scanner.nextInt();
             if (x==0) {
                 break;

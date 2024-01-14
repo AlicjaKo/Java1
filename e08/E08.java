@@ -9,10 +9,10 @@ class E08 {
                 break;
             }
             else if ((x%2)==0) {
-                System.out.println("Even number");
+                System.out.println("Number is even");
             }
             else {
-                System.out.println("Odd number");
+                System.out.println("Number is odd");
             }
         }
     

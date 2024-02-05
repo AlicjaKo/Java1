@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "e01",
+      "setup": "cd e01 && javac E01.java",
+      "run": "cd e01 && java E01",
+      "input": "",
+      "output": "10\r\n5.5\r\ntrue\r\nc\r\n2022\r\n7000000000\r\n100\r\n3.1345759992338476",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e02",
+      "setup": "cd e02 && javac E02.java",
+      "run": "cd e02 && java E02",
+      "input": "10\r\n5",
+      "output": "Give a number: \r\nGive a number: \r\n10 + 5 = 15\r\n10 - 5 = 5\r\n10 x 5 = 50\r\n10 / 5 = 2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e03",
+      "setup": "cd e03 && javac E03.java",
+      "run": "cd e03 && java E03",
+      "input": "7",
+      "output": "Enter a number: \r\nPositive number",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e04",
+      "setup": "cd e04 && javac E04.java",
+      "run": "cd e04 && java E04",
+      "input": "24\r\n12",
+      "output": "Enter a day: \r\nEnter a month: \r\nMerry Christmas",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e05",
+      "setup": "cd e05 && javac E05.java",
+      "run": "cd e05 && java E05",
+      "input": "5",
+      "output": "Enter a number:\r\nFri",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e06",
+      "setup": "cd e06 && javac E06.java",
+      "run": "cd e06 && java E06",
+      "input": "7",
+      "output": "Which multiplication table to show?\r\n0 x 7 = 0\r\n1 x 7 = 7\r\n2 x 7 = 14\r\n3 x 7 = 21\r\n4 x 7 = 28\r\n5 x 7 = 35\r\n6 x 7 = 42\r\n7 x 7 = 49\r\n8 x 7 = 56\r\n9 x 7 = 63\r\n10 x 7 = 70",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e07",
+      "setup": "cd e07 && javac E07.java",
+      "run": "cd e07 && java E07",
+      "input": "6\r\n7",
+      "output": "Which multiplication table to show?\r\nUntil which multiplier should the table show?\r\n0 x 6 = 0\r\n1 x 6 = 6\r\n2 x 6 = 12\r\n3 x 6 = 18\r\n4 x 6 = 24\r\n5 x 6 = 30\r\n6 x 6 = 36\r\n7 x 6 = 42",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e08",
+      "setup": "cd e08 && javac E08.java",
+      "run": "cd e08 && java E08",
+      "input": "6\r\n9\r\n3\r\n0",
+      "output": "Give a number (0 to quit):\r\nNumber is even\r\nGive a number (0 to quit):\r\nNumber is odd\r\nGive a number (0 to quit):\r\nNumber is odd\r\nGive a number (0 to quit):",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "e09",
+      "setup": "cd e09 && javac E09.java",
+      "run": "cd e09 && java E09",
+      "input": "15\r\n20\r\n-1",
+      "output": "Give a test score (-1 to quit):\r\nAverage: 15.0\r\nGive a test score (-1 to quit):\r\nAverage: 17.5\r\nGive a test score (-1 to quit):",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
